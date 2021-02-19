@@ -1,0 +1,263 @@
+<wpml-config>
+    <admin-texts>
+		<key name="seoaal_options">
+			<key name="header-phone-text-textarea" />
+			<key name="header-address-text-textarea" />
+			<key name="header-email-text-textarea" />
+			<key name="header-topbar-text-1" />
+			<key name="header-topbar-text-2" />
+			<key name="header-logobar-text-1" />
+			<key name="header-logobar-text-2" />
+			<key name="header-navbar-text-1" />
+			<key name="header-navbar-text-2" />
+			<key name="header-fixed-text-1" />
+			<key name="header-fixed-text-2" />
+			<key name="mobile-menu-text-1" />
+			<key name="mobile-menu-text-2" />
+			<key name="copyright-text-textarea" />
+			<key name="blog-page-title" />
+			<key name="blog-page-desc-textarea" />
+			<key name="blog-more-text" />
+			<key name="archive-more-text" />
+			<key name="category-more-text" />
+			<key name="tag-more-text" />
+			<key name="search-more-text" />
+			<key name="author-more-text" />			
+			<key name="portfolio-client-label" />
+			<key name="portfolio-date-label" />
+			<key name="portfolio-duration-label" />
+			<key name="portfolio-estimation-label" />
+			<key name="portfolio-place-label" />
+			<key name="portfolio-url-label" />
+			<key name="portfolio-category-label" />
+			<key name="portfolio-tags-label" />
+			<key name="portfolio-share-label" />
+		</key>
+	</admin-texts>
+	<custom-fields>
+		<custom-field action="translate">seoaal_post_header_post_title_text</custom-field>
+		<custom-field action="translate">seoaal_post_header_post_title_desc</custom-field>
+		<custom-field action="copy">seoaal_post_header_post_title_video</custom-field>
+		<custom-field action="copy">seoaal_post_video_id</custom-field>
+		<custom-field action="copy">seoaal_post_audio_id</custom-field>
+		<custom-field action="translate">seoaal_post_quote_text</custom-field>
+		<custom-field action="translate">seoaal_post_quote_author</custom-field>
+		<custom-field action="translate">seoaal_post_link_text</custom-field>
+		<custom-field action="copy">seoaal_post_extrenal_link</custom-field>
+		<custom-field action="translate">seoaal_page_header_page_title_text</custom-field>
+		<custom-field action="translate">seoaal_page_header_page_title_desc</custom-field>
+		<custom-field action="copy">seoaal_page_header_page_title_video</custom-field>
+		<custom-field action="translate">seoaal_portfolio_date</custom-field>
+		<custom-field action="translate">seoaal_portfolio_client_name</custom-field>
+		<custom-field action="translate">seoaal_portfolio_duration</custom-field>
+		<custom-field action="translate">seoaal_portfolio_estimation</custom-field>
+		<custom-field action="translate">seoaal_portfolio_place</custom-field>
+		<custom-field action="copy">seoaal_portfolio_url</custom-field>
+		<custom-field action="copy">seoaal_portfolio_video_id</custom-field>
+		<custom-field action="copy">seoaal_portfolio_audio_id</custom-field>
+		<custom-field action="copy">seoaal_portfolio_gmap_latitude</custom-field>
+		<custom-field action="copy">seoaal_portfolio_gmap_longitude</custom-field>
+		<custom-field action="copy">seoaal_portfolio_gmap_marker</custom-field>
+		<custom-field action="translate">seoaal_team_designation</custom-field>
+		<custom-field action="copy">seoaal_team_email</custom-field>
+		<custom-field action="translate">seoaal_testimonial_designation</custom-field>
+		<custom-field action="translate">seoaal_testimonial_company_name</custom-field>
+		<custom-field action="copy">seoaal_testimonial_company_url</custom-field>		
+		<custom-field action="translate">seoaal_event_organiser_name</custom-field>
+		<custom-field action="translate">seoaal_event_organiser_designation</custom-field>
+		<custom-field action="copy">seoaal_event_start_date</custom-field>
+		<custom-field action="translate">seoaal_event_end_date</custom-field>
+		<custom-field action="translate">seoaal_event_time</custom-field>
+		<custom-field action="translate">seoaal_event_cost</custom-field>
+		<custom-field action="copy">seoaal_event_link</custom-field>
+		<custom-field action="translate">seoaal_event_link_text</custom-field>
+		<custom-field action="translate">seoaal_event_venue_name</custom-field>
+		<custom-field action="translate">seoaal_event_venue_address</custom-field>
+		<custom-field action="copy">seoaal_event_email</custom-field>
+		<custom-field action="copy">seoaal_event_phone</custom-field>
+		<custom-field action="copy">seoaal_event_website</custom-field>
+    </custom-fields>	
+	<shortcodes>
+        <shortcode>
+            <tag>seoaal_vc_blog</tag>
+			<attributes>
+                <attribute>more_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>seoaal_vc_circle_progress</tag>
+			<attributes>
+                <attribute>title</attribute>
+				<attribute>content</attribute>
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_compare_pricing</tag>
+			<attributes>
+                <attribute>compare_title</attribute>
+				<attribute>pricing_title</attribute>
+				<attribute>price_before</attribute>
+				<attribute>price</attribute>
+				<attribute>price_after</attribute>
+				<attribute>pricing_feature</attribute>
+				<attribute>btn_text</attribute>
+				<attribute type="link" encoding="vc_link">btn_url</attribute>
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_contact_form</tag>
+			<attributes>
+                <attribute>title</attribute>
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_contact_info</tag>
+			<attributes>
+                <attribute>title</attribute> 
+				<attribute>contact_info</attribute>
+				<attribute>contact_address</attribute>
+				<attribute>contact_email</attribute>
+				<attribute>contact_number</attribute>
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_counter</tag>
+			<attributes>
+				<attribute>title</attribute> 
+				<attribute>content</attribute>			
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_day_counter</tag>
+			<attributes>
+				<attribute>title</attribute> 
+				<attribute>day_label</attribute>
+				<attribute>hour_label</attribute>
+				<attribute>min_label</attribute>				
+				<attribute>sec_label</attribute>				
+				<attribute>week_label</attribute>				
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_events</tag>
+			<attributes>
+				<attribute>more_text</attribute> 			
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_feature_box</tag>
+			<attributes>
+				<attribute>title</attribute> 
+				<attribute type="link" encoding="vc_link">title_url</attribute>
+				<attribute>ribbon_value</attribute>
+				<attribute type="link" encoding="vc_link">fbox_video</attribute>
+				<attribute type="link" encoding="vc_link">btn_url</attribute>				
+				<attribute>content</attribute>					
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_flip_box</tag>
+			<attributes>
+				<attribute>title</attribute> 
+				<attribute>btn_text</attribute>
+				<attribute type="link" encoding="vc_link">btn_url</attribute>				
+				<attribute>content</attribute>					
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_google_map</tag>
+			<attributes>
+				<attribute>title</attribute> 
+				<attribute>map_info_title</attribute>							
+				<attribute>map_info_address</attribute>					
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_list_item</tag>
+			<attributes>
+				<attribute>list_title</attribute>				
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_mailchimp</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>button_text</attribute>	
+				<attribute>placeholder</attribute>					
+				<attribute>sub_title</attribute>
+				<attribute>success_text</attribute>				
+				<attribute>fail_text</attribute>				
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_modal_popup</tag>
+			<attributes>
+				<attribute>link_text</attribute>
+				<attribute>btn_text</attribute>	
+				<attribute>modal_title</attribute>				
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_pricing_table</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>price_before</attribute>	
+				<attribute>price</attribute>	
+				<attribute>price_after</attribute>	
+				<attribute type="link" encoding="vc_link">pricing_video</attribute>		
+				<attribute>pricing_content</attribute>	
+				<attribute>btn_text</attribute>	
+				<attribute type="link" encoding="vc_link">btn_url</attribute>		
+				<attribute>ribbon_text</attribute>	
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_section_title</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>title_prefix</attribute>	
+				<attribute>title_suffix</attribute>	
+				<attribute>sub_title</attribute>	
+				<attribute>content</attribute>	
+				<attribute>btn_text</attribute>	
+				<attribute type="link" encoding="vc_link">btn_url</attribute>		
+				<attribute>ribbon_text</attribute>	
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_services</tag>
+			<attributes>
+				<attribute>read_more</attribute>
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_team</tag>
+			<attributes>
+				<attribute>more_text</attribute>
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_testimonial</tag>
+			<attributes>
+				<attribute>more_text</attribute>
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_timeline</tag>
+			<attributes>
+				<attribute>timeline_title</attribute>
+				<attribute>timeline_subtitle</attribute>
+				<attribute>separator_text</attribute>
+				<attribute>separator_title</attribute>
+				<attribute>separator_subtitle</attribute>
+				<attribute>tl_content</attribute>
+			</attributes>
+        </shortcode>
+		<shortcode>
+            <tag>seoaal_vc_twitter</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>
